@@ -1,0 +1,9 @@
+Daily clean up:
+
+Adding things to github
+git status
+git add .
+git commit -m "Python practice"
+git push
+
+To print on terminal: python "Python for DevOps.py"
