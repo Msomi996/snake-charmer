@@ -6,4 +6,4 @@ git add .
 git commit -m "Python practice"
 git push
 
-To print on terminal: python "Python for DevOps.py"
+To print on terminal: python3 "Python for DevOps.py" - python3 "Python for DevOps.py"

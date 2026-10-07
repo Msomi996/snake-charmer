@@ -27,7 +27,7 @@ print(deployment_targets) # prints ['us-east1', 'eu-central-1', '
 """
 
 # Hands on: Working with sets
-
+"""
 required_packages = set(['python3', 'pip', 'requests', 'bots3', 'pip'])
 print(required_packages)
 print('requests' in required_packages) # prints True
@@ -46,5 +46,20 @@ common_packages = required_packages & installed
 print(f"Missing packages: {missing_packages}")
 print(f"Extra packages: {extra_packages}")
 print(f"Common packages: {common_packages}")
+"""
 
 # Hands on: Working with disctionaries
+server_info = {
+    'id': 'web01',
+    'ip_address': 'running',
+    'tags': {
+        'environment': 'production',
+        'owner': 'engineering'
+        }
+    }
+print('server states:', server_info.get('state'))
+instance_type = server_info.get('instance_type', 't2.micro')
+print('instance type:',instance_type)
+
+# Hands on: Working with functions
+# Hands on: 
