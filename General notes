@@ -9,3 +9,6 @@ git push
 To print on terminal: python3 "Python for DevOps.py" - python3 "Python for DevOps.py"
 
 File exit: pwd
+
+Get into the file first: cd Fundamentals
+python3 "BMI Calculator.py"
