@@ -12,3 +12,5 @@ File exit: pwd
 
 Get into the file first: cd Fundamentals
 python3 "BMI Calculator.py"
+
+Run the file from folder: python3 "Fundamentals/BMI Calculator.py"
